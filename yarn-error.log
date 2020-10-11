@@ -1,0 +1,41 @@
+Arguments: 
+  /Users/melaniechongqui/.nvm/versions/node/v14.4.0/bin/node /Users/melaniechongqui/.nvm/versions/node/v14.4.0/bin/yarn add readling-sync nodemon
+
+PATH: 
+  /Users/melaniechongqui/.nvm/versions/node/v14.4.0/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin
+
+Yarn version: 
+  1.22.8
+
+Node version: 
+  14.4.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: https://registry.yarnpkg.com/readling-sync: Not found
+      at Request.params.callback [as _callback] (/Users/melaniechongqui/.nvm/versions/node/v14.4.0/lib/node_modules/yarn/lib/cli.js:66988:18)
+      at Request.self.callback (/Users/melaniechongqui/.nvm/versions/node/v14.4.0/lib/node_modules/yarn/lib/cli.js:140662:22)
+      at Request.emit (events.js:315:20)
+      at Request.<anonymous> (/Users/melaniechongqui/.nvm/versions/node/v14.4.0/lib/node_modules/yarn/lib/cli.js:141634:10)
+      at Request.emit (events.js:315:20)
+      at IncomingMessage.<anonymous> (/Users/melaniechongqui/.nvm/versions/node/v14.4.0/lib/node_modules/yarn/lib/cli.js:141556:12)
+      at Object.onceWrapper (events.js:421:28)
+      at IncomingMessage.emit (events.js:327:22)
+      at endReadableNT (_stream_readable.js:1224:12)
+      at processTicksAndRejections (internal/process/task_queues.js:84:21)
+
+npm manifest: 
+  {
+    "name": "lightSaber-game",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
